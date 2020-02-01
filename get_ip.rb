@@ -1,6 +1,6 @@
 require 'resolv'
 
-target = print "Enter the target : "
+print "Enter the target : "
 target = gets.chomp
 
 begin
@@ -8,6 +8,6 @@ begin
 	puts ip
 
 rescue
-	puts "Link does exist"
+	puts "Link doesn't exist"
 end
 
